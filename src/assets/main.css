@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+@import './base.css';
+
+@theme {
+  --font-sans: Poppins, sans-serif;
+  --grid-template-columns-70: 60% 38%;
+}
+
+#app {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: normal;
+}
+
+* {
+  @apply box-border;
+}
