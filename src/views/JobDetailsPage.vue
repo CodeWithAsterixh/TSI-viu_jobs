@@ -25,7 +25,7 @@ const handleDelete = () => {
 }
 
 onMounted(async () => {
-  const loadingTime = 2000
+  const loadingTime = 1000
   setTimeout(() => {
     state.job = db.getById(parseInt(`${jobId}`))
     state.isLoading = false

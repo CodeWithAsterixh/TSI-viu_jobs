@@ -19,7 +19,7 @@ const state = reactive<{ jobs: jobType[]; isLoading: boolean }>({
 })
 
 onMounted(async () => {
-  const loadingTime = 2000
+  const loadingTime = 1000
   setTimeout(() => {
     state.jobs = db.get()
 
