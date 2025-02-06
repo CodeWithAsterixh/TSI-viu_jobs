@@ -20,7 +20,7 @@ export function areValuesEqual(obj1: any, obj2: any): boolean {
     .filter((i) => i).length // filter for only the boolean value of true // return the length of the array
 
   /**
-   * return the boolean of whether the amount of equal items is equal to the original object length
+   * return the boolean of whether the amount of equal items is equal to the original object length or not
    */
   return equalLen === len1
 }
